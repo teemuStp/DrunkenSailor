@@ -1,0 +1,15 @@
+To compile the program, use gfortran command :
+output.dat contains coordinates in form x y
+				        x1 y2
+If sailor is set to walk multiple times, the data form the next run is written below the first walk
+10 0
+10 1
+1 2
+...
+.
+sailor gets to shore or walk is stopped
+   new walk begins
+10 0
+11 0
+..
+input.dat is empty for it is unnesseccary for this project.
