@@ -10,4 +10,4 @@ This has potential to lead to dead end in which case the sailor gives up and goe
 The simulation calculates fraction for times the sailor made to the ship in time,
 died of old age wandering (50 years) and walked herself in a dead end (SAW only).
 
-To compile this program I used "gfortran". A seconf "read me" file is in the folder.
+To compile this program I used "gfortran". A second"read me" file is in the folder.
