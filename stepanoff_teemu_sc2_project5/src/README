@@ -1,0 +1,24 @@
+For compiling the program , use gfortran command: 
+
+gfortran mtfort90.f95 SAW.f95 sailormover.f95 averages.f95 main.f95
+
+This compiles all neccessary module.o files into lower modules and finally to the main program.
+
+Input paramaters for running the code are given as command line arguments in form:
+
+./a.out numberOfSimulations saveToFile? SAW?
+
+First argument 	MUST BE AN INTEGER, otherwise the progrmam won't run!
+Second has to be "yes" for program to save data to file
+Third argument has to be "yes" for program tu run SAW-simulation, otherwise it will simulate ordinary walk
+
+If Arguments are absent:
+
+First argument absent sets number of simulations to zero
+
+Second argument absent sets program NOT to save to a file
+	
+Third argument absent sets walk to ordinary walk
+
+
+To change the random number generator igrnd() seed, go to file mtfort90.95 line 125, and change integer value of Defaultd.
